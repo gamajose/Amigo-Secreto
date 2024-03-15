@@ -1,0 +1,24 @@
+Sistema Amigo Secreto - Família
+
+ADMIM:
+- cadastrar o EVENTOS
+- cadastrar o GRUPO
+- cadastrar as PESSOAS
+
+SITE:
+- tela de login via cpf
+- tela de buffer para sorteio
+- tela de exibição do match
+
+REGRAS:
+- a prova de idosos
+- senha única para admin
+- o evento pode (Ou não) ser agrupado
+- login por cpf
+- os matches não podem ficar visíveis no banco de dados
+- todos os matches são feitos no Início do Evento
+
+Características:
+- No banco de dados, não podemos identificar quem tirou quem.
+- O sorteio acontece na hora do CADASTRO, Não na hora da identificação
+- O painel de Administração vai ter senha única
