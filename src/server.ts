@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended: true}));
 app.all('*', requestIntercepter);
 
 app.use('/admin', adminRoutes);
-app.use('./', siteRoutes);
+app.use('/', siteRoutes);
 
 const runServer = (port: number, server:http.Server) => {
     server.listen(port, () => {
